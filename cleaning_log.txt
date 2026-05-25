@@ -1,0 +1,12 @@
+=== DATA CLEANING LOG ===
+
+Final shape: (1020, 12)
+Operations performed:
+  - Dropped fully empty rows
+  - Numeric columns converted and filled with median
+  - Text columns filled with 'Unknown'
+  - Duplicates removed
+  - Column names standardized to lowercase with underscores
+  - Text columns title-cased and stripped
+
+=== END OF LOG ===
